@@ -28,7 +28,8 @@ respectively
 c. The file explorer should handle scrolling in the case of vertical overflow using keys k &
 l.
 d. User should be able to navigate up and down in the file list using the corresponding
-up and down arrow keys2. Open directories and files When
+up and down arrow keys
+2. Open directories and files When
 enter key is pressed -
 a. Directory - Clear the screen and navigate into the directory and show the directory
 contents as specified in point 1

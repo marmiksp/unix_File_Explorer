@@ -1,5 +1,5 @@
 # Advanced OS
-## Assignment #1 - File Explorer
+## File Explorer
 
 File Explorer should work in two modes -
 1. Normal mode (default mode) - used to explore the current directory and navigate the filesystem

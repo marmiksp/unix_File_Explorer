@@ -69,7 +69,7 @@ b. Output should be True or False depending on whether the file or folder exists
 6. On pressing ESC key, the application should go back to Normal Mode
 7. On pressing q key, the application should close
 
-#### Points 
+#### Points to be Noted 
 
 - In Normal Mode I am Showing 14 files at a time in a window and if thare are more than 14 files then we already have functionality of Verticle Overflow Scrolling Function.
 - In Resize Functionality, I have provided resize facility but we can resize window till (100 X 35) lesser than this it will not work beacause my window is filled with other informations also like currentdir path, Home path, current file pointer etc.

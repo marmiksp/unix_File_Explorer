@@ -10,7 +10,7 @@ line.
 It is able to handle text rendering if the terminal window is resized.
 
 
-##Normal mode:
+## Normal mode:
 Normal mode is the default mode of your application. It should have the following functionalities -
 1. Display a list of directories and files in the current folder
 a. Every file in the directory should be displayed on a new line with the following

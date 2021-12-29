@@ -10,6 +10,37 @@ line.
 It is able to handle text rendering if the terminal window is resized.
 
 
+##Normal mode:
+Normal mode is the default mode of your application. It should have the following functionalities -
+1. Display a list of directories and files in the current folder
+a. Every file in the directory should be displayed on a new line with the following
+attributes for each file -
+i.
+File Name
+ii.
+File Size
+iii.
+Ownership (user and group) and Permissions
+iv.
+Last modified
+b. The file explorer should show entries “.” and “..” for current and parent directory
+respectively
+c. The file explorer should handle scrolling in the case of vertical overflow using keys k &
+l.
+d. User should be able to navigate up and down in the file list using the corresponding
+up and down arrow keys2. Open directories and files When
+enter key is pressed -
+a. Directory - Clear the screen and navigate into the directory and show the directory
+contents as specified in point 1
+b. File - Open the file in vi editor
+3. Traversal
+a. Go back - Left arrow key should take the user to the previously visited directory
+b. Go forward - Right arrow key should take the user to the next directory
+c. Up one level - Backspace key should take the user up one level
+d. Home - h key should take the user to the home folder (the folder where the
+application was started)
+
+
 #### Points 
 
 - In Normal Mode I am Showing 14 files at a time in a window and if thare are more than 14 files then we already have functionality of Verticle Overflow Scrolling Function.

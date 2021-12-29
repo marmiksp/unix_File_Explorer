@@ -27,7 +27,7 @@ b. The file explorer should show entries “.” and “..” for current and pa
 respectively
 c. The file explorer should handle scrolling in the case of vertical overflow using keys k &
 l.
-d. User should be able to navigate up and down in the file list using the corresponding
+d. User is able to navigate up and down in the file list using the corresponding
 up and down arrow keys
 2. Open directories and files When
 enter key is pressed -
@@ -35,15 +35,15 @@ a. Directory - Clear the screen and navigate into the directory and show the dir
 contents as specified in point 1
 b. File - Open the file in vi editor
 3. Traversal
-a. Go back - Left arrow key should take the user to the previously visited directory
-b. Go forward - Right arrow key should take the user to the next directory
-c. Up one level - Backspace key should take the user up one level
+a. Go back - Left arrow key will take the user to the previously visited directory
+b. Go forward - Right arrow key will take the user to the next directory
+c. Up one level - Backspace key will take the user up one level
 d. Home - h key should take the user to the home folder (the folder where the
 application was started)
 
 ## Command Mode:
-The application should enter the Command button whenever “:” (colon) key is pressed. In the
-command mode, the user should be able to enter different commands. All commands appear in the
+The application enters the Command button whenever “:” (colon) key is pressed. In the
+command mode, the user is able to enter different commands. All commands appear in the
 status bar at the bottom.
 1. Copy - ‘copy <source_file(s)> <destination_directory>’
 Move - ‘move <source_file(s)> <destination_directory>’
@@ -52,8 +52,8 @@ a. Eg - copy foo.txt bar.txt baz.mp4 ~/foobar
 move foo.txt bar.txt baz.mp4 ~/foobar
 rename foo.txt bar.txt
 b. Assume that the destination directory exists and you have write permissions.
-c. Copying/Moving directories should also be implemented
-d. The file ownership and permissions should remain intact
+c. Copying/Moving directories is also implemented
+d. The file ownership and permissions remains intact
 2. Create File - ‘create_file <file_name> <destination_path>’
 Create Directory - ‘create_dir <dir_name> <destination_path>’
 a. Eg - create_file foo.txt ~/foobar
@@ -61,13 +61,13 @@ create_file foo.txt .
 create_dir foo ~/foobar
 3. Delete File - ‘delete_file <file_path>’
 Delete Directory - ‘delete_dir <dir_path>’
-a. On deleting directory, you have to recursively delete all content present inside it.
+a. On deleting directory, it will recursively delete all content present inside it.
 4. Goto - ‘goto <location>’
 a. Eg - goto <directory_path>5. Search - ‘search <file_name>’ or ‘search <directory_name>’
 a. Search for a given file or folder under the current directory recursively.
 b. Output should be True or False depending on whether the file or folder exists
 6. On pressing ESC key, the application should go back to Normal Mode
-7. On pressing q key, the application should close
+7. On pressing q key, the application will close
 
 #### Points to be Noted 
 

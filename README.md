@@ -61,7 +61,7 @@ Number of Directory Contents visible at a time can be changed by changing `maxco
 8. `k` `l` to scroll contents up and down respectively (Not a recommended way of navigation).
 
 ## Assumptions
-1. Terminal Window is Completely Resizable as contents will shown according to Window Size during the Execution of the Program. But we can resize window till (100 X 35) lesser than this it will not work beacause my window is filled with other informations also like currentdir path, Home path, current file pointer etc.
+1. Terminal Window is Completely Resizable as contents will shown according to Window Size during the Execution of the Program. But we can resize window till `(100 X (maxcontentrows + 20))` lesser than this it will not work beacause my window is filled with other informations also like currentdir path, Home path, current file pointer etc.
 2. Root(/) - Absolute root of the system.
 3. `./` is assumed to be **RELATIVE DIRECTORY**.
 4. `/` starting paths are assumed to be **Absolute Paths**.

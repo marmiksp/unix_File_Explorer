@@ -21,9 +21,9 @@ Then Execute using
 ## Modes
 This application will work in two modes :
 
- 1 .`Normal Mode` : used to explore the current directory and navigate the filesystem.
+1. `Normal Mode` : used to explore the current directory and navigate the filesystem.
 
-2 .`Command Mode` : used to enter and execute shell commands.
+2. `Command Mode` : used to enter and execute shell commands.
 
 The **Home** of the application is the directory where the application will start.
 

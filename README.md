@@ -23,7 +23,11 @@ This application will work in two modes :
 
 1. `Normal Mode` : used to explore the current directory and navigate the filesystem.
 
+<img src="Screenshots/Normal_Mode.png">
+
 2. `Command Mode` : used to enter and execute shell commands.
+
+<img src="Screenshots/Command_Mode.png">
 
 The **Home** of the application is the directory where the application will start.
 

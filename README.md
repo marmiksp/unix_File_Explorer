@@ -70,3 +70,4 @@ Number of Directory Contents visible at a time can be changed by changing `maxco
 3. `./` is assumed to be **RELATIVE DIRECTORY**.
 4. `/` starting paths are assumed to be **Absolute Paths**.
 5. `~` is assumed to **HOME DIRECTORY** (where Application starts).
+6. Example for Command: `create_file foo.txt .` , `rename foo.txt bar.txt` etc
